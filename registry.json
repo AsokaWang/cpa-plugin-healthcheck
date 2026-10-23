@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "plugins": [
+    {
+      "id": "healthcheck",
+      "name": "Health Check",
+      "description": "Lightweight host health diagnostics for the management panel.",
+      "author": "router-for-me",
+      "repository": "https://github.com/AsokaWang/cpa-plugin-healthcheck",
+      "license": "MIT",
+      "tags": [
+        "management"
+      ]
+    }
+  ]
+}
