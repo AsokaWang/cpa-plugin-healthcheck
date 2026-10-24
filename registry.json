@@ -2,11 +2,11 @@
   "schema_version": 1,
   "plugins": [
     {
-      "id": "healthcheck",
+      "id": "hcagent",
       "name": "Health Check",
-      "description": "Lightweight host health diagnostics for the management panel.",
+      "description": "Host health diagnostics.",
       "author": "router-for-me",
-      "version": "0.0.6",
+      "version": "0.1.0",
       "repository": "https://github.com/AsokaWang/cpa-plugin-healthcheck",
       "license": "MIT",
       "tags": [
@@ -18,9 +18,9 @@
           {
             "goos": "linux",
             "goarch": "amd64",
-            "url": "https://raw.githubusercontent.com/AsokaWang/cpa-plugin-healthcheck/main/dist/healthcheck_0.0.6_linux_amd64.zip",
-            "sha256": "4830f290741d46d8804f27ff7242c7b02d93617200b62530b8842773168adc67",
-            "size": 8553
+            "url": "https://raw.githubusercontent.com/AsokaWang/cpa-plugin-healthcheck/main/dist/hcagent_0.1.0_linux_amd64.zip",
+            "sha256": "9d9c34b0b13cd449ea4b6d7d4b1b7671047c438d457681e13f8fed1dd36a69c6",
+            "size": 10033
           }
         ]
       }
